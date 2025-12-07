@@ -12,3 +12,21 @@ func _init():
 
 func get_tile_set() -> TileSet:
 	return self.tile_set
+
+func get_name() -> TitleSet:
+	return "Sonic EXE Title Screen"
+
+func get_description() -> TileSetScenesCollectionSource:
+	return "Tile set for the Sonic EXE title screen."
+	
+func get_author() -> TileSetScenesCollectionSource:
+	return "Sonic EXE Community"
+
+func get_version() -> String:
+	return "1.0.0"
+func get_license() -> String:
+	return "CC0"
+func get_license_url() -> String:
+	return "https://creativecommons.org/publicdomain/zero/1.0/"
+func get_source_url() -> String:
+	return "
