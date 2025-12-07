@@ -1,2 +1,2 @@
 # Sonic The Hedgehog - The Exe
-a fan exe game
+a fan exe game by Brenninho
