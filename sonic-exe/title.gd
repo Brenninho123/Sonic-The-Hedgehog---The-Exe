@@ -24,9 +24,24 @@ func get_author() -> TileSetScenesCollectionSource:
 
 func get_version() -> String:
 	return "1.0.0"
+
 func get_license() -> String:
 	return "CC0"
+
 func get_license_url() -> String:
 	return "https://creativecommons.org/publicdomain/zero/1.0/"
+
 func get_source_url() -> String:
-	return "
+	return "https://github.com/sonic-exe-community/sonic-exe-game"
+
+func get_documentation_url() -> String:
+	return "https://sonic-exe-community.github.io/sonic-exe-game/docs"
+
+func get_tags() -> Array:
+	return ["title", "sonic exe", "tile set"]
+
+var tile_set: TileSet
+var TitleSet = String
+var TileSetScenesCollectionSource = String
+var TileSetSource = String
+var TileSetScenesCollectionSource = String
