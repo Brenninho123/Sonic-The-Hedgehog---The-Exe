@@ -12,7 +12,20 @@ config_version=5
 
 config/name="Sonic exe"
 config/features=PackedStringArray("4.5", "GL Compatibility")
+boot_splash/bg_color=Color(0.66799533, 0.0021102447, 0.87079537, 1)
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_height=645
+window/size/mode=3
+
+[filesystem]
+
+import/fbx2gltf/enabled.android=true
+import/fbx2gltf/enabled.web=true
+import/blender/enabled.android=true
+import/blender/enabled.web=true
 
 [rendering]
 
